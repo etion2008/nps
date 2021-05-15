@@ -161,3 +161,4 @@ jobs:
         tags: |
           ${{ secrets.DOCKERHUB_USERNAME }}/npc:latest
           ${{ secrets.DOCKERHUB_USERNAME }}/npc:${{ env.RELEASE_VERSION }}
+ 
